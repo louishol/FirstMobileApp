@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
-  <name>FirstMobileApp</name>
+  <name>Louis app</name>
   <description>Voor Mobile Android</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
@@ -54,5 +54,18 @@
 
   <access origin="*"/>
   
+
+<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="www/res/screen/android/splash.png" density="land-hdpi"/>
+    <splash src="www/res/screen/android/splash.png" density="land-ldpi"/>
+    <splash src="www/res/screen/android/splash.png" density="land-mdpi"/>
+    <splash src="www/res/screen/android/splash.png" density="land-xhdpi"/>
+
+    <splash src="www/res/screen/android/splash.png" density="port-hdpi"/>
+    <splash src="www/res/screen/android/splash.png" density="port-ldpi"/>
+    <splash src="www/res/screen/android/splash.png" density="port-mdpi"/>
+    <splash src="www/res/screen/android/splash.png" density="port-xhdpi"/>
+</platform>
 <preference name="SplashScreenDelay" value="10000" />
 </widget>
